@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Recon Web App test suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="reusableComponents.ListenersImplementation"/>
+    <listener class-name="reusableComponents.TestRetryAnalyzerListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="LoginTests(failed)">
+    <classes>
+      <class name="Tests.ValidUserLoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LaunchApplication"/>
+          <include name="UserLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.ValidUserLoginTests -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [Recon Web App test suite] -->

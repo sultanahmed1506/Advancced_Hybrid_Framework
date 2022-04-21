@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel Testing Suite" duration-ms="143113" started-at="2022-03-30T11:12:37 EDT" finished-at="2022-03-30T11:15:01 EDT">
+    <groups>
+    </groups>
+    <test name="Parallel Testing Suite" duration-ms="143113" started-at="2022-03-30T11:12:37 EDT" finished-at="2022-03-30T11:15:01 EDT">
+      <class name="Tests.InvalidUserLoginTest$InValidUserLoginTests">
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="LaunchApplication" is-config="true" duration-ms="5569" started-at="2022-03-30T11:12:38 EDT" finished-at="2022-03-30T11:12:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="InvalidUserLoginTest(java.lang.Object)[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="InvalidUserLoginTest" duration-ms="8647" started-at="2022-03-30T11:12:43 EDT" description="InValid username and password test" data-provider="InValidUsers" finished-at="2022-03-30T11:12:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test123, username=Test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="tearDown" is-config="true" duration-ms="685" started-at="2022-03-30T11:12:52 EDT" finished-at="2022-03-30T11:12:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="LaunchApplication" is-config="true" duration-ms="2499" started-at="2022-03-30T11:12:53 EDT" finished-at="2022-03-30T11:12:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="InvalidUserLoginTest(java.lang.Object)[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="InvalidUserLoginTest" duration-ms="7430" started-at="2022-03-30T11:12:55 EDT" description="InValid username and password test" data-provider="InValidUsers" finished-at="2022-03-30T11:13:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=myaplui1, username=lpb04}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="tearDown" is-config="true" duration-ms="783" started-at="2022-03-30T11:13:03 EDT" finished-at="2022-03-30T11:13:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="LaunchApplication" is-config="true" duration-ms="2735" started-at="2022-03-30T11:13:03 EDT" finished-at="2022-03-30T11:13:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="InvalidUserLoginTest(java.lang.Object)[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="InvalidUserLoginTest" duration-ms="7362" started-at="2022-03-30T11:13:06 EDT" description="InValid username and password test" data-provider="InValidUsers" finished-at="2022-03-30T11:13:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=myaplui2, username=lpb05}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.InvalidUserLoginTest$InValidUserLoginTests@e15b7e8]" name="tearDown" is-config="true" duration-ms="767" started-at="2022-03-30T11:13:14 EDT" finished-at="2022-03-30T11:13:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.InvalidUserLoginTest$InValidUserLoginTests -->
+      <class name="Tests.ValidUserLoginTests">
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="LaunchApplication" is-config="true" duration-ms="5505" started-at="2022-03-30T11:12:38 EDT" finished-at="2022-03-30T11:12:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="ValidUserLoginTest(java.lang.Object)[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="ValidUserLoginTest" duration-ms="45109" started-at="2022-03-30T11:12:43 EDT" description="Valid username and password test" data-provider="validUserLoginData" finished-at="2022-03-30T11:13:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=myaplui, username=lpb05}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="tearDown" is-config="true" duration-ms="722" started-at="2022-03-30T11:13:28 EDT" finished-at="2022-03-30T11:13:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="LaunchApplication" is-config="true" duration-ms="2404" started-at="2022-03-30T11:13:29 EDT" finished-at="2022-03-30T11:13:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="ValidUserLoginTest(java.lang.Object)[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="ValidUserLoginTest" duration-ms="43153" started-at="2022-03-30T11:13:32 EDT" description="Valid username and password test" data-provider="validUserLoginData" finished-at="2022-03-30T11:14:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=myaplui, username=lpb06}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="tearDown" is-config="true" duration-ms="730" started-at="2022-03-30T11:14:15 EDT" finished-at="2022-03-30T11:14:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="LaunchApplication" is-config="true" duration-ms="2331" started-at="2022-03-30T11:14:15 EDT" finished-at="2022-03-30T11:14:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="ValidUserLoginTest(java.lang.Object)[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="ValidUserLoginTest" duration-ms="42039" started-at="2022-03-30T11:14:18 EDT" description="Valid username and password test" data-provider="validUserLoginData" finished-at="2022-03-30T11:15:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=myaplui, username=lpb04}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.ValidUserLoginTests@209da20d]" name="tearDown" is-config="true" duration-ms="738" started-at="2022-03-30T11:15:00 EDT" finished-at="2022-03-30T11:15:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.ValidUserLoginTests -->
+    </test> <!-- Parallel Testing Suite -->
+  </suite> <!-- Parallel Testing Suite -->
+</testng-results>
